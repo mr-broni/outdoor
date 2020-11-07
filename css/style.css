@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  }
+  body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+  }
+  a, a:hover{
+    text-decoration: none;
+  }
+/* main css */
+.header-section{
+    width: 100%;
+    background: url("../img/bg1.png") center  no-repeat;
+    background-size: cover;
+    
+  }
+  .header-section .navbar{
+     width: 100%;
+     z-index: 100;
+     position: relative;
+     transition: 1s;
+  }
+   .menu{
+    width: 100%;
+  }
+  .menu .bg-light{
+    background: transparent !important;
+  }
+  .menu .navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px 10px;
+    padding-bottom:2px;
+    transition: 0.2s ease;
+    border-bottom: 2px solid transparent;
+    
+  }
+  .menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    border-bottom: 2px solid #FB2056;
+  }
+  .menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #fff;
+    border-bottom: 2px solid #FB2056;
+  
+  }
+  .menu .navbar-light .navbar-nav .btn-info{
+    padding: 10px 25px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s;
+    
+  }
+  .menu .navbar-light .navbar-nav .btn-info:hover, 
+  .menu .navbar-light .navbar-nav .btn-info:focus{
+    border: 2px solid #fff;
+    color: #fff;
+    background: #FB2056;
+    border: 2px solid #FB2056;
+     animation: 0.3s;
+  
+   
+  }
+  /* banner */
+  .header-section .banner{
+    width: 100%;
+    padding: 80px;
+   
+   }
+   .banner .banner-inner{
+     width: 100%;
+    padding: 50px 0px 100px;
+   }
+   .header-section .banner .banner-inner h4{
+     font-size: 18px;
+   line-height: 28px;
+   color: #fff;
+   font-weight: 400;
+   letter-spacing: 2px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   text-align: center;
+   
+   }
+ 
+   .header-section .banner .banner-inner h1{
+   font-size: 50px;
+   line-height: 62px;
+   color: #ffffff;
+   font-weight: 700;
+   margin-bottom: 20px;
+   letter-spacing: 4px;
+   text-align: center;
+   }
+   .banner .banner-inner .bnnrbt{
+     text-align: center;
+   }
+  
+   .banner .banner-inner .bnnrbt .btn-info{
+     padding: 10px 25px;
+     background: #FB2056;
+     border: 2px solid transparent;
+     color: #fff;
+    font-weight: 600;
+     border-radius: 30px;
+     font-size: 14px;
+     letter-spacing: 2px;
+     transition: 0.3s;
+     text-transform: uppercase;
+     margin-top: 30px;
+  
+   }
+   .banner .banner-inner .bnnrbt .btn-info:hover, 
+   .banner .banner-inner .bnnrbt .btn-info:focus{
+     background: transparent;
+     border: 2px solid #fff;
+     color: #fff;
+     
+   }
+/* feedback section */
+
+.feedback-client{
+    padding: 50px 0;
+    text-align:  center;
+    position:  relative;
+    background: #F4F5F9;
+
+}
+.feedback-text i{
+    position:  absolute;
+    color: #fff;
+    left: -20%;
+    top: 50%;
+    font-size: 8em;
+    transform: translate(-20%, -50%);
+}
+.feedback-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #636e72;
+}
+/* feedback section end */
+
+/* event section */
+.event-section{
+    width: 100%;
+    padding: 60px 0px;
+}
+.banner h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 18px;
+    position: relative;
+    margin: 30px 0px 60px 2px;
+}
+.banner h3::after{
+	content:" ";
+	background: #f71f55;
+	position:  absolute;
+	width: 70px;
+	height:  4px;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.bgimg {
+    box-shadow: 11px 6px 0 0 #dfdede7a;
+    margin-bottom: 40px;
+    height: 60%;
+    width: 80%;
+}
+.upcom h5 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.upcom p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.upcom a{
+   font-size: 14px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   color: #f71f55;
+}
+
+/* event section end */
+/*min-world  */
+.min-world{
+    background: url("../img/fs.png") center center no-repeat fixed ;
+    background-size:cover ;
+    height: 80vh;
+
+}
+.min-world .world{
+    align-items: center;
+    min-height: 85vh;
+}
+.world-banner h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.world-banner h1::after{
+    content:" ";
+    position:  absolute;
+	background: #f71f55;
+	width: 80px;
+	height: 5px;
+	bottom: 5px;
+	left: 4%;
+
+}
+.world-banner p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+.world-banner a {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #fff;
+    transition: .2s;
+} 
+.world-banner a:hover{
+    color:#f71f55;
+
+}
+/* world end */
+.tour-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.tour-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+}
+.tour-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    padding: 20px 20px;
+}
+.tour-text h1::after{
+	content:" ";
+    position:  absolute;
+	background: #f71f55;
+	width: 80px;
+	height: 5px;
+	bottom: 6px;
+	left: 4%;
+}
+.tour-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+    padding: 5px 20px;
+}
+
+.tour-section .btn-info {
+    padding: 10px 20px;
+    background: #FB2056;
+    border: 2px solid transparent;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    box-shadow: 2px 5px 15px rgba(45, 52, 54, 0.3);
+    margin-left: 20px;
+}
+.tour-text .btn-info:hover{
+    background: transparent;
+    border: 2px solid #FB2056;
+    color: #FB2056;
+}
+.tour-section img{
+    padding: 12px 0px;
+}
+.footer-section{
+    width: 100%;
+    padding: 40px;
+    background:  #000;
+    text-align: center;
+}
+.footer-section p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #dfe6e9;
+    align-items: center;
+    margin-bottom: 0;
+}

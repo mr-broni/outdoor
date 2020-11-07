@@ -1,0 +1,179 @@
+@media(max-width:1399px){
+
+}
+
+@media(max-width:1199px){
+    .world-banner h1 {
+        font-size: 48px;
+    }
+    .tour-text h1 {
+        font-size: 36px;
+    }
+}
+
+@media(max-width:991px){
+    .navbar-collapse {
+        background: #000;
+    }
+    .menu .navbar-light .navbar-nav .btn-info {
+        padding: 9px 10px;
+    }
+    .ml-auto, .mx-auto {
+        padding: 20px 10px;
+    }
+    .header-section .banner .banner-inner h1 {
+        font-size: 48px;
+    }
+    .banner h3 {
+        font-size: 28px;
+    }
+    .event-section {
+        padding: 25px 0px 80px 0px;
+    }
+    .upcom h5 {
+        font-size: 18px;
+    }
+    .upcom p {
+        padding: 0px 15px;
+    }
+    .world-banner h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .tour-text h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .tour-text h1::after {
+        left: 10%;
+    }
+    .tour-text .btn-info {
+        padding: 9px 14px;
+        
+    }
+}
+
+@media(max-width:767px){
+    .header-section .banner {
+        padding: 40px 0px;
+    }
+    .header-section .banner .banner-inner h1 {
+        font-size: 40px !important;
+        margin-bottom: 5px;
+    }
+    .header-section .banner .banner-inner h4 {
+        margin-bottom: 12px;
+    }
+    .header-section .banner .banner-inner h1 {
+        font-size: 30px !important;
+        font-weight: 700;
+        line-height: 40px !important;
+    }
+    .banner .banner-inner .bnnrbt .btn-info {
+        padding: 10px 15px !important;
+        letter-spacing: 0px;
+    }
+    .banner h3 {
+        font-size: 25px;
+        margin-bottom: 38px;
+    }
+    .text-center {
+        padding: 16px;
+    }
+    .tour-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .event-section {
+        padding: 25px 0px 55px 0px;
+    }
+    .tour-section {
+        padding: 15px 0px;
+        text-align: center !important;
+    }
+    .min-world {
+        height: 70vh;
+    }
+    .min-world .world {
+        min-height: 70vh;
+    }
+    
+    .tour-text h1::after {
+        display: none;
+       
+    }
+    .tour-text{
+        padding: 20px;
+    }
+    .footer-section {
+        padding: 20px;
+    }
+    .footer-section p {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:575px){
+    .container {
+        width: 100%;
+    }
+    .world-banner h1 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .tour-text {
+        margin-bottom: 20px;
+    }
+    .tour-text p {
+        padding: 0;
+    }
+    .footer-section {
+        padding: 15px;
+    }
+    .tour-text h1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .btn-info {
+    padding: 10px 20px;
+    margin-left: 0px !important;
+    margin-top: 20px;
+}
+.text-center {
+    margin-bottom: 28px;
+}
+.upcom p {
+    margin: 8px 47px;
+}
+.upcom h5 {
+    font-size: 22px;
+}
+.event-section {
+    padding: 25px 0px 28px 0px;
+}
+
+}
+@media(max-width: 320px){
+    .container {
+        width: 100%;
+    }
+    .upcom p {
+        margin: 8px 0px;
+    }
+    .upcom h5 {
+        font-size: 20px;
+    }
+    .text-center {
+        margin-bottom: 50px !important;
+    }
+    .header-section .banner .banner-inner h1 {
+        font-size: 24px !important;
+        font-weight: 600;
+        line-height: 30px !important;
+        letter-spacing: 0px !important;
+    }
+    .header-section .banner {
+        padding: 30px 0px;
+    }
+}
